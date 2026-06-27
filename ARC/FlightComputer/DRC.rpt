@@ -1,0 +1,201 @@
+** Drc report for FlightComputer.kicad_pcb **
+** Created on 2026-06-20T20:22:20 **
+** Report includes: Errors, Warnings **
+
+** Found 59 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(38.7975 mm, 69.1956 mm): Segment on Edge.Cuts
+    @(28.7328 mm, 59.6387 mm): Segment of J6 on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(38.7975 mm, 69.1956 mm): Segment on Edge.Cuts
+    @(36.2400 mm, 65.2958 mm): Segment of J6 on B.Silkscreen
+[hole_to_hole]: Drilled hole too close to other hole (rule 'via to via clearance (same nets)' min 0.2535 mm; actual 0.2155 mm)
+    Rule: via to via clearance (same nets); warning
+    @(30.4000 mm, 51.6700 mm): Via [GND] on F.Cu - B.Cu
+    @(30.5600 mm, 52.1600 mm): Via [GND] on F.Cu - B.Cu
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(61.0265 mm, 45.0631 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(63.5100 mm, 34.1000 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(56.9600 mm, 33.8000 mm): Footprint C21
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(60.3800 mm, 33.8000 mm): Footprint C20
+[lib_footprint_mismatch]: Footprint 'JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(27.4000 mm, 52.1500 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(32.3600 mm, 53.6900 mm): Footprint C26
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(58.8100 mm, 33.7900 mm): Footprint C22
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(36.2200 mm, 30.0700 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(36.2700 mm, 27.0200 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'CP_EIA-3528-21_Kemet-B' does not match copy in library 'Capacitor_Tantalum_SMD'
+    Local override; warning
+    @(27.5700 mm, 54.9525 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(32.4100 mm, 26.3900 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(33.7400 mm, 32.5850 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(32.6100 mm, 29.3225 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(36.2250 mm, 28.5500 mm): Footprint R3
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(66.5800 mm, 34.1100 mm): Reference field of C19
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(66.5800 mm, 34.1100 mm): Reference field of C19
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(43.7525 mm, 56.8600 mm): Reference field of C17
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(43.7525 mm, 56.8600 mm): Reference field of C17
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.1400 mm, 49.0400 mm): Reference field of C25
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.1400 mm, 49.0400 mm): Reference field of C25
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.3200 mm, 45.5300 mm): Reference field of C16
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.3200 mm, 45.5300 mm): Reference field of C16
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.0750 mm)
+    Rule: Minimum Text; warning
+    @(56.9271 mm, 31.8012 mm): Reference field of C21
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.3000 mm)
+    Rule: Minimum Text; warning
+    @(56.9271 mm, 31.8012 mm): Reference field of C21
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.0750 mm)
+    Rule: Minimum Text; warning
+    @(60.3471 mm, 31.8012 mm): Reference field of C20
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.3000 mm)
+    Rule: Minimum Text; warning
+    @(60.3471 mm, 31.8012 mm): Reference field of C20
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.3500 mm, 47.3200 mm): Reference field of C24
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.3500 mm, 47.3200 mm): Reference field of C24
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.6400 mm)
+    Rule: Minimum Text; warning
+    @(35.3000 mm, 51.3300 mm): Reference field of U6
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(54.4200 mm, 36.3800 mm): Reference field of C12
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(54.4200 mm, 36.3800 mm): Reference field of C12
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.3900 mm, 54.9500 mm): Reference field of C26
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.3900 mm, 54.9500 mm): Reference field of C26
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.0750 mm)
+    Rule: Minimum Text; warning
+    @(58.8400 mm, 31.7900 mm): Reference field of C22
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.3000 mm)
+    Rule: Minimum Text; warning
+    @(58.8400 mm, 31.7900 mm): Reference field of C22
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    Rule: Minimum Text; warning
+    @(36.2200 mm, 31.2100 mm): Reference field of R1
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.4000 mm)
+    Rule: Minimum Text; warning
+    @(36.2200 mm, 31.2100 mm): Reference field of R1
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(36.2100 mm, 25.9100 mm): Reference field of R2
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(36.2100 mm, 25.9100 mm): Reference field of R2
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(30.3900 mm, 34.7400 mm): Reference field of L1
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(30.3900 mm, 34.7400 mm): Reference field of L1
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.4100 mm, 24.7700 mm): Reference field of C1
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.4100 mm, 24.7700 mm): Reference field of C1
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.6100 mm, 32.5800 mm): Reference field of C3
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.6100 mm, 32.5800 mm): Reference field of C3
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(32.5200 mm, 31.4600 mm): Reference field of U3
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(32.5200 mm, 31.4600 mm): Reference field of U3
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.0750 mm)
+    Rule: Minimum Text; warning
+    @(37.8000 mm, 28.5700 mm): Reference field of R3
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.3000 mm)
+    Rule: Minimum Text; warning
+    @(37.8000 mm, 28.5700 mm): Reference field of R3
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(34.9700 mm, 40.2400 mm): Reference field of C7
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(34.9700 mm, 40.2400 mm): Reference field of C7
+[text_thickness]: Text thickness out of range (rule 'Minimum Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    Rule: Minimum Text; warning
+    @(29.0000 mm, 27.2800 mm): Reference field of C2
+[text_height]: Text height out of range (rule 'Minimum Text' min height 0.8000 mm; actual 0.5000 mm)
+    Rule: Minimum Text; warning
+    @(29.0000 mm, 27.2800 mm): Reference field of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(32.9425 mm, 57.7400 mm): Reference field of D1
+    @(32.9467 mm, 57.0543 mm): NPTH pad of J6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(32.3900 mm, 54.9500 mm): Reference field of C26
+    @(32.1236 mm, 55.7704 mm): PTH pad SH [GND] of J6
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1026 mm)
+    Rule: Pad to Silkscreen; warning
+    @(37.8000 mm, 28.5700 mm): Reference field of R3
+    @(37.0500 mm, 28.5500 mm): Pad 1 [5V] of R3 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

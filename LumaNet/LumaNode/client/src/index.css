@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  * {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-bricolage {
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+}
